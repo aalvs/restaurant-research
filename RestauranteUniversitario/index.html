@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Universitário</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</head>
+<body>
+    <main class="wrapper">
+        <div class="container">
+            <div class="title">
+                <h1>Olá aluno! <br> Participe da nossa pesquisa.</h1>
+                <br>
+                <p>Total de alunos entrevistados: <span style="font-weight: bold;" id="totEntrevistados">0</span></p>
+            </div>
+            <div class="box-btn">
+                <button class="btn">Clique aqui para participar da pesquisa?</button>
+            </div>
+            
+            <div class="list-cards">
+                <div class="box-item">
+                    <div class="item-card">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <h1>Menos de 10 visitas</h1>
+                        <p>alunos que utilizaram o restaurante menos de 10 vezes</p>
+                        <h2><span id="resultPorcentagem1">0</span>%</h2>
+                    </div>
+                    <div class="btn-calc"><span id="totMenos10Visitas">0</span> aluno(s)</div>
+                </div>
+                <div class="box-item">
+                    <div class="item-card">
+                        <span><ion-icon name="heart-half-outline"></ion-icon></span>
+                        <h1>Entre 10 e 15 visitas</h1>
+                        <p>alunos que utilizaram o restaurante entre 10 e 15 vezes</p>
+                        <h2><span id="resultPorcentagem2">0</span>%</h2>
+                    </div>
+                    <div class="btn-calc"><span id="totEntre10e15Visitas">0</span> aluno(s)</div>
+                </div>
+                <div class="box-item">
+                    <div class="item-card">
+                        <span><ion-icon name="heart-sharp"></ion-icon></span>
+                        <h1>Acima de 15 visitas</h1>
+                        <p>alunos que utilizaram o restaurante acima de 15 vezes</p>
+                        <h2><span id="resultPorcentagem3">0</span>%</h2>
+                    </div>
+                    <div class="btn-calc"><span id="totAcima15Visitas">0</span> aluno(s)</div>
+                </div>
+
+            </div>
+        </div>    
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

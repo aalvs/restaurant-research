@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--color-bg-c);
+    font-family: 'Rubik', sans-serif;
+}
+
+ion-icon {
+    font-size: 32px;
+    color: var(--color-red);
+}
+
+:root {
+    --color-red:    #ea1d2c;
+    --color-red-h:  #c2121f;
+    --color-bg-w:   #fff;
+    --color-bg-c:   #f2f2f2;
+    --color-title:  #4C5164;
+    --color-txt:    #81879C;
+    --color-txt-c:  #A8AFC9;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-bg-c);
+    max-width: 1000px;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.title { 
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.title h1 {
+    color: var(--color-title);
+}
+
+.title p {
+    color: var(--color-txt);
+}
+
+.box-btn {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: var(--color-red);
+    font-size: 1.4em;
+    font-weight: bold;
+    width: 48rem;
+    padding: 2em 2em;
+    border-radius: 0.4em;
+    color: var(--color-bg-w);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--color-red-h);
+    color: var(--color-bg-w);
+}
+
+.list-cards {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0.2rem;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-card {
+    width: 15rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg-w);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 4px 30px rgba(0,0,0,0.08);
+}
+
+div.item-card h1 {
+    color: var(--color-title);
+    font-size: 1.1rem;
+    margin: 0.4em 0em;
+}
+
+div.item-card h2 {
+    color: var(--color-red);
+    font-size: 1.6rem;
+    margin-top: 0.8em;
+    font-weight: 500;
+}
+
+div.item-card p {
+    line-height: 1.2;
+    max-width: 14rem;
+    color: var(--color-txt);
+    font-size: 0.8em;
+}
+
+.btn-calc {
+    text-align: center;
+    margin-top: 1.6em;
+    background-color: var(--color-bg-w);
+    color: var(--color-txt);
+    font-weight: 500;
+    border-radius: 0.4em;
+    padding: 1.4em 2em;
+    border: none;
+    outline: none;
+}
