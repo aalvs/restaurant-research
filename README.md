@@ -39,6 +39,8 @@ d) o percentual de alunos que utilizaram o restaurante acima de 15 vezes.
 
 # 📝 Sobre o projeto
 
+- Curso JavaScript
+
 Este é um projeto acadêmico. Seu principal objetivo é facilitar a avaliação dos professores.
 
 ---
